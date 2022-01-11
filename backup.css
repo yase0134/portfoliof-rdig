@@ -1,0 +1,65 @@
+/* tema3.css | http://127.0.0.1:5502/tema3.css */
+
+@media (min-width: 900px) {
+  .billedebox3 {
+    /* grid-template-rows: repeat(5, 2vw); */
+    grid-template-rows: repeat(5, 1vw);
+  }
+  .billede7 {
+    /* margin-top: 29%; */
+    /* grid-row: 9; */
+    margin-top: 42%;
+    grid-row: 8;
+  }
+  .billede10 {
+    /* margin-top: -1%; */
+    /* grid-row: 10; */
+    margin-top: 8%;
+    grid-row: 9;
+  }
+  .billede13 {
+    /* margin-top: 20%; */
+    /* grid-row: 10; */
+    margin-top: 77%;
+    grid-row: 9;
+  }
+  .billede11 {
+    /* margin-top: -1%; */
+    margin-top: 42%;
+  }
+  .billede12 {
+    /* margin-top: -1%; */
+    /* grid-column: 7/11; */
+    margin-top: 39%;
+    grid-column: 7/10;
+  }
+  .billede8 {
+    /* margin-top: 29%; */
+    margin-top: 7%;
+  }
+  .billede9 {
+    /* margin-top: 29%; */
+    margin-top: 6%;
+  }
+  .billede14 {
+    /* margin-top: 20%; */
+    /* grid-row: 10; */
+    margin-top: 77%;
+    grid-row: 9;
+  }
+  .billede15 {
+    /* margin-top: 21%; */
+    /* grid-column: 7/11; */
+    /* grid-row: 10; */
+    margin-top: 77%;
+    grid-column: 7/10;
+    grid-row: 9;
+  }
+}
+
+@media (min-width: 600px) {
+  .footer {
+    /* padding: 40px 0; */
+    padding: 100px 0;
+  }
+}

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Herunder starter logo */
+/* .menu a {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 120%;
+  text-decoration: none;
+  color: black;
+} */
+
+/* header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  position: sticky;
+  background-color: white;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 30px;
+  gap: 41px;
+}
+
+header img {
+  width: 60%;
+  top: 20%;
+  position: relative;
+  margin-left: 10%;
+} */
+.background_color {
+  background-color: #f4e9e9;
+}
+
+/* ___________________INDHOLD_________________________ */
+
+#first_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(16, 10vw);
+  margin: 13%;
+  padding: 40px;
+  margin-top: auto;
+  gap: 20px;
+}
+
+.boxommig {
+  background-color: white;
+  grid-column: 2/9;
+  grid-row: 1/6;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(16, 10vw); */
+  grid-column-start: 2;
+  padding: 10%;
+}
+
+.boxtxt1 {
+  grid-column: 1;
+  grid-row: 1/2;
+  margin: 10%;
+}
+
+.boxtxt2 {
+  margin: 10%;
+  margin-top: -1%;
+}
+
+.boxbillede {
+  background-image: url(portrait.jpg);
+  grid-column: 1/2;
+  grid-row: 1/4;
+  background-size: cover;
+}
+
+.titel {
+  background-color: #f4e9e9;
+  text-align: center;
+  padding: 6%;
+}
+
+.titel h1 {
+  font-size: 3rem;
+}
+
+.titel h2 {
+  font-size: 1rem;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="185" height="87" viewBox="0 0 185 87">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="185" height="87"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="185" height="87" fill="#fff"/>
+    <text id="YSCT" transform="translate(46 60)" font-size="45" font-family="HelveticaNeue-CondensedBold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">YSCT</tspan></text>
+  </g>
+</svg>

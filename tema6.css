@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Herunder starter logo */
+/* .menu a {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 120%;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  position: sticky;
+  background-color: white;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 30px;
+  gap: 41px;
+}
+
+header img {
+  width: 60%;
+  top: 20%;
+  position: relative;
+  margin-left: 10%;
+} */
+
+.background_color {
+  background-color: #c3baad;
+}
+
+/* ____________BOX MED TITEL_________________ */
+
+.titel {
+  background-color: #f4e9e9;
+  text-align: center;
+  padding: 2%;
+}
+
+.titel h1 {
+  font-size: 3rem;
+}
+
+.titel h2 {
+  font-size: 1rem;
+}
+
+/* _______________indhold________________ */
+
+#first_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  object-fit: cover;
+  /* gap: 10%; */
+  margin: 12%;
+  margin-top: 5%;
+}
+.boxholder {
+  background-color: #c3baad;
+  grid-column-start: 2;
+  padding: 10%;
+  margin-top: 4%;
+}
+
+.overskrift {
+  padding-bottom: 10%;
+}
+
+.billedebox {
+  grid-column-start: 1;
+  background-image: url(tema2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 568/581;
+}
+
+#second_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  object-fit: cover;
+  /* gap: 10%; */
+  margin: 12%;
+  margin-top: -10%;
+}
+.boxholder2 {
+  background-color: #c3baad;
+  grid-column-start: 1;
+  padding: 10%;
+  margin-top: -2%;
+}
+
+.overskrift {
+  padding-bottom: 10%;
+}
+
+.billedebox2 {
+  grid-column-start: 2;
+  background-image: url(web2/moodboard1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1404/783;
+  margin-top: 10%;
+}
+
+.txt1 {
+  line-height: 30px;
+}
+
+#third_section {
+  margin: 0%;
+  margin-top: 5%;
+  background-color: black;
+}
+
+.billedebox3 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  gap: 5%;
+}
+
+.billede1 {
+  background-image: url(web2/styletile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1404/783;
+  margin-top: 28%;
+  grid-column: 2/4;
+  grid-row: 1;
+}
+
+.billede2 {
+  background-image: url(web2/gryn.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1404/783;
+  margin-top: 28%;
+  grid-column: 4/6;
+  grid-row: 1;
+}
+
+.billede3 {
+  background-image: url(web2/splash-billede1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1404/783;
+  margin-top: 28%;
+  grid-column: 6/8;
+  grid-row: 1;
+}
+
+.billede4 {
+  background-image: url(web2/res1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1404/783;
+  margin-top: 10%;
+  grid-column: 2/4;
+  grid-row: 4;
+}
+
+.billede5 {
+  background-image: url(web2/proces.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1404/783;
+  margin-top: 10%;
+  grid-column: 4/6;
+  grid-row: 4;
+}
+
+.billede6 {
+  background-image: url(web2/proces1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 549/669;
+  margin-top: 10%;
+  grid-column: 6/7;
+  grid-row: 4;
+}
