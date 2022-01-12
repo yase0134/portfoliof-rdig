@@ -28,6 +28,18 @@ header img {
   color: white;
 }
 
+.menu a {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.toggle-btn {
+  display: none;
+}
+
 /* __________FOOTER______________ */
 .footer {
   padding: 24px 0;
@@ -94,30 +106,7 @@ header img {
   font-size: 11px;
 }
 
-.footer-basic .social > a:hover {
-  opacity: 0.9;
-}
-
-.footer .copyright {
-  text-align: center;
-
-  color: #aaa;
-  margin-bottom: 0;
-  margin-top: 4px;
-  font-size: 8px;
-}
-
-.menu a {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
-  text-decoration: none;
-  color: black;
-}
-
-.toggle-btn {
-  display: none;
-}
+/* _____________tekster_______ */
 
 @media (min-width: 400px) {
   header img {

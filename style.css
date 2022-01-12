@@ -83,7 +83,7 @@
 }
 
 .billedebox {
-  background-image: url(baggrund.png);
+  background-image: url(front.png);
   background-size: cover;
   aspect-ratio: 4324.63/2570.95;
   margin-top: 6%;
@@ -104,8 +104,12 @@ a {
 .box1 h3 {
   margin-top: -12%;
   padding: 5%;
-  font-weight: 199;
-  font-size: 101%;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.box2 h3 {
+  margin-top: -12%;
+  padding: 5%;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 h2 {
@@ -124,6 +128,7 @@ h2 {
   padding: 5%;
   font-size: 14px;
   margin-top: 2%;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 /* _____________________________________THIRD SECTION________________________________________________ */
@@ -161,13 +166,6 @@ a {
   list-style: none;
 }
 
-.box2 h3 {
-  margin-top: -12%;
-  padding: 5%;
-  font-weight: 199;
-  font-size: 101%;
-}
-
 h2 {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 200;
@@ -182,11 +180,13 @@ h2 {
   padding: 5%;
   font-size: 14px;
   margin-top: 2%;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .box2 p {
   padding: 5%;
   font-size: 14px;
   margin-top: -5%;
+  font-family: "Helvetica Neue", sans-serif;
 }
 /* _____________________________________FOOTER________________________________________________ */
 
@@ -478,14 +478,6 @@ h2 {
     font-size: 15px;
     margin-top: -4%;
   }
-  .txt1 {
-    font-size: 115%;
-    color: #382d11;
-    grid-column: 5/6;
-    grid-row: 8;
-    margin-top: 0%;
-    margin-left: -13%;
-  }
 
   #second_section {
     margin: 9%;
@@ -495,54 +487,36 @@ h2 {
     background-color: #c9e4da2d;
   }
 
-  .txt3 {
-    color: #382d11;
-    grid-column: 6/9;
-    grid-row: 10;
-    font-size: 90%;
-    margin-top: 1%;
+  .txt1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
   }
+
   .txt3 {
-    color: #382d11;
-    grid-column: 6/9;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+    grid-column: 6/10;
     grid-row: 10;
-    font-size: 90%;
-    margin-left: 23%;
-  }
-  .txt3 {
-    color: #382d11;
-    grid-column: 5/9;
-    grid-row: 10;
-    font-size: 70%;
-    margin-left: 23%;
-  }
-  .txt3 {
-    color: #382d11;
-    grid-column: 5/9;
-    grid-row: 10;
-    font-size: 70%;
-    margin-left: 14%;
-  }
-  .txt3 {
-    color: #382d11;
-    grid-column: 6/8;
-    grid-row: 10;
-    font-size: 115%;
   }
 
   .txt2 {
-    grid-column: 3/8;
-    grid-row: 9;
-    font-weight: bolder;
-    font-size: 256%;
-    color: #382d11;
-    margin-left: 37%;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    text-decoration: none;
+    color: black;
   }
 
   h2 {
     font-family: "Helvetica Neue", sans-serif;
-    font-weight: 200;
-    font-size: 200%;
+    font-weight: 300;
+    font-size: 3rem;
     text-decoration: none;
     color: black;
   }
@@ -597,12 +571,15 @@ h2 {
     background-color: #c9e4da2d;
   }
   .txt1 {
-    font-size: 115%;
-    color: #382d11;
-    grid-column: 6/8;
+    grid-column: 5/8;
     grid-row: 8;
-    margin-top: 10%;
-    margin-left: -57%;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+    margin-left: -5%;
+    margin-top: 6%;
   }
   /* .menu a {
     font-family: "Helvetica Neue", sans-serif;

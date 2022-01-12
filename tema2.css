@@ -310,7 +310,11 @@
   }
 
   .titel h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 500;
     font-size: 3rem;
+    text-decoration: none;
+    color: black;
   }
 
   .titel h2 {

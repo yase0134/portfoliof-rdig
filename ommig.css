@@ -77,15 +77,18 @@
     background-color: white;
     padding: 2%;
     line-height: 31px;
-    font-size: 16px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
   }
+
   .overskrift {
     margin: 8%;
-
     margin-left: 0;
   }
   .txt1 {
     margin: 0%;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 17px;
   }
 
   .boxtxt2 {
@@ -163,14 +166,12 @@
     grid-row: 2;
   }
 
-  .titel {
-    background-color: #f4e9e9;
-    text-align: center;
-    padding: 6%;
-  }
-
   .titel h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 500;
     font-size: 3rem;
+    text-decoration: none;
+    color: black;
   }
 
   .titel h2 {

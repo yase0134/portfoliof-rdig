@@ -214,11 +214,11 @@ header img {
 }
 
 P {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 500;
-  font-size: 70%;
   text-decoration: none;
   color: black;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
 }
 
 .titel {
@@ -227,9 +227,9 @@ P {
   padding: 6%;
 }
 
-.titel h1 {
+/* .titel h1 {
   font-size: 167%;
-}
+} */
 
 .titel h2 {
   font-size: 1rem;
@@ -269,5 +269,12 @@ P {
   }
   .boxholder {
     gap: 15px;
+  }
+  .titel h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
   }
 }
