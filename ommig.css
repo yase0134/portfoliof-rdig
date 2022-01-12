@@ -1,94 +1,179 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-/* Herunder starter logo */
-/* .menu a {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 500;
-  font-size: 120%;
-  text-decoration: none;
-  color: black;
-} */
+@media (min-width: 300px) {
+  .background_color {
+    background-color: white;
+  }
 
-/* header {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px;
-  position: sticky;
-  background-color: white;
+  /* ___________________INDHOLD_________________________ */
+
+  #first_section {
+    margin: 13%;
+    padding: 40px;
+    margin-top: auto;
+    gap: 20px;
+  }
+
+  .boxommig {
+    background-color: white;
+    padding: 2%;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .overskrift {
+    margin: 20%;
+    margin-left: 0;
+  }
+  .txt1 {
+    margin: 0%;
+  }
+
+  .boxtxt2 {
+    margin: 10%;
+    margin-top: -1%;
+  }
+
+  .boxbillede {
+    background-image: url(portrait.jpg);
+    background-size: cover;
+    aspect-ratio: 3960/3171;
+    background-size: cover;
+  }
+
+  .titel {
+    background-color: #f4e9e9;
+    text-align: center;
+    padding: 6%;
+  }
+
+  .titel h1 {
+    font-size: 3rem;
+  }
+
+  .titel h2 {
+    font-size: 1rem;
+  }
 }
 
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding: 30px;
-  gap: 41px;
+@media (min-width: 600px) {
+  .background_color {
+    background-color: white;
+  }
+
+  /* ___________________INDHOLD_________________________ */
+
+  #first_section {
+    margin: 13%;
+    padding: 40px;
+    margin-top: auto;
+    gap: 20px;
+  }
+
+  .boxommig {
+    background-color: white;
+    padding: 2%;
+    line-height: 31px;
+    font-size: 16px;
+  }
+  .overskrift {
+    margin: 8%;
+
+    margin-left: 0;
+  }
+  .txt1 {
+    margin: 0%;
+  }
+
+  .boxtxt2 {
+    margin: 10%;
+    margin-top: -1%;
+  }
+
+  .boxbillede {
+    background-image: url(portrait.jpg);
+    background-size: cover;
+    aspect-ratio: 3960/3171;
+    background-size: cover;
+  }
+
+  .titel {
+    background-color: #f4e9e9;
+    text-align: center;
+    padding: 6%;
+  }
+
+  .titel h1 {
+    font-size: 3rem;
+  }
+
+  .titel h2 {
+    font-size: 1rem;
+  }
 }
 
-header img {
-  width: 60%;
-  top: 20%;
-  position: relative;
-  margin-left: 10%;
-} */
-.background_color {
-  background-color: #f4e9e9;
-}
+@media (min-width: 900px) {
+  .background_color {
+    background-color: white;
+  }
 
-/* ___________________INDHOLD_________________________ */
+  /* ___________________INDHOLD_________________________ */
 
-#first_section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(16, 10vw);
-  margin: 13%;
-  padding: 40px;
-  margin-top: auto;
-  gap: 20px;
-}
+  #first_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(16, 10vw);
+    margin: 13%;
+    padding: 40px;
+    margin-top: auto;
+    gap: 20px;
+  }
 
-.boxommig {
-  background-color: white;
-  grid-column: 2/9;
-  grid-row: 1/6;
-  display: grid;
-  /* grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(16, 10vw); */
-  grid-column-start: 2;
-  padding: 10%;
-}
+  .boxommig {
+    background-color: white;
+    grid-column: 2/9;
+    grid-row: 1/6;
+    display: grid;
 
-.boxtxt1 {
-  grid-column: 1;
-  grid-row: 1/2;
-  margin: 10%;
-}
+    grid-column-start: 2;
+    padding: 10%;
+  }
 
-.boxtxt2 {
-  margin: 10%;
-  margin-top: -1%;
-}
+  .boxtxt1 {
+    grid-column: 1;
+    grid-row: 1/2;
+    margin: 10%;
+  }
 
-.boxbillede {
-  background-image: url(portrait.jpg);
-  grid-column: 1/2;
-  grid-row: 1/4;
-  background-size: cover;
-}
+  .boxtxt2 {
+    margin: 10%;
+    margin-top: -1%;
+  }
 
-.titel {
-  background-color: #f4e9e9;
-  text-align: center;
-  padding: 6%;
-}
+  .boxbillede {
+    background-image: url(portrait.jpg);
+    grid-column: 1/2;
+    grid-row: 2;
+    background-size: cover;
+    aspect-ratio: 3960/3171;
+    margin-left: -12%;
+    grid-row: 2;
+  }
 
-.titel h1 {
-  font-size: 3rem;
-}
+  .titel {
+    background-color: #f4e9e9;
+    text-align: center;
+    padding: 6%;
+  }
 
-.titel h2 {
-  font-size: 1rem;
+  .titel h1 {
+    font-size: 3rem;
+  }
+
+  .titel h2 {
+    font-size: 1rem;
+  }
 }

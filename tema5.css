@@ -9,36 +9,6 @@
     line-height: 20px;
     font-size: 12px;
   }
-  /* .menu a {
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    text-decoration: none;
-    color: black;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    position: sticky;
-    background-color: white;
-  }
-
-  header nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 30px;
-    gap: 41px;
-  }
-
-  header img {
-    width: 60%;
-    top: 20%;
-    position: relative;
-    margin-left: 10%;
-  } */
 
   .background_color {
     background-color: #f8c6a4;
@@ -195,103 +165,9 @@
     aspect-ratio: 1404/783;
     margin-top: 10%;
   }
-
-  .footer {
-    padding: 40px 0;
-    background-color: #ffffff;
-    color: #4b4c4d;
-    background: black;
-  }
-
-  .footer ul {
-    padding: 0;
-    list-style: none;
-
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer li {
-    padding: 0 10px;
-  }
-
-  .footer ul a {
-    color: inherit;
-    text-decoration: none;
-    opacity: 0.8;
-  }
-
-  .footer ul a:hover {
-    opacity: 1;
-  }
-
-  .footer .social {
-    text-align: center;
-    padding-bottom: 25px;
-  }
-
-  .footer .social > a {
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    margin: 0 8px;
-    color: inherit;
-    opacity: 0.75;
-  }
-
-  .footer-basic .social > a:hover {
-    opacity: 0.9;
-  }
-
-  .footer .copyright {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: #aaa;
-    margin-bottom: 0;
-  }
 }
 
 @media (min-width: 600px) {
-  /* .menu a {
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    text-decoration: none;
-    color: black;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    position: sticky;
-    background-color: white;
-  }
-
-  header nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 30px;
-    gap: 41px;
-  }
-
-  header img {
-    width: 60%;
-    top: 20%;
-    position: relative;
-    margin-left: 10%;
-  } */
-
   .background_color {
     background-color: #f8c6a4;
   }
@@ -475,103 +351,9 @@
     grid-column: 1;
     grid-row: 10;
   }
-
-  .footer {
-    padding: 40px 0;
-    background-color: #ffffff;
-    color: #4b4c4d;
-    background: black;
-  }
-
-  .footer ul {
-    padding: 0;
-    list-style: none;
-
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer li {
-    padding: 0 10px;
-  }
-
-  .footer ul a {
-    color: inherit;
-    text-decoration: none;
-    opacity: 0.8;
-  }
-
-  .footer ul a:hover {
-    opacity: 1;
-  }
-
-  .footer .social {
-    text-align: center;
-    padding-bottom: 25px;
-  }
-
-  .footer .social > a {
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    margin: 0 8px;
-    color: inherit;
-    opacity: 0.75;
-  }
-
-  .footer-basic .social > a:hover {
-    opacity: 0.9;
-  }
-
-  .footer .copyright {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: #aaa;
-    margin-bottom: 0;
-  }
 }
 
 @media (min-width: 900px) {
-  /* .menu a {
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    text-decoration: none;
-    color: black;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    position: sticky;
-    background-color: white;
-  }
-
-  header nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 30px;
-    gap: 41px;
-  }
-
-  header img {
-    width: 60%;
-    top: 20%;
-    position: relative;
-    margin-left: 10%;
-  } */
-
   .background_color {
     background-color: #f8c6a4;
   }
@@ -758,37 +540,6 @@
   .background_color {
     background-color: #d1d2d6;
   }
-  /* Herunder starter logo */
-  /* .menu a {
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    text-decoration: none;
-    color: black;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    position: sticky;
-    background-color: white;
-  }
-
-  header nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 30px;
-    gap: 41px;
-  }
-
-  header img {
-    width: 60%;
-    top: 20%;
-    position: relative;
-    margin-left: 10%;
-  } */
 
   .background_color {
     background-color: #f8c6a4;
@@ -868,7 +619,7 @@
     margin: 0%;
 
     margin-top: 0%;
-    margin-top: 5%;
+    margin-top: 33%;
     background-color: black;
     display: grid;
     grid-template-columns: repeat(8, 2fr);
