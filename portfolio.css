@@ -213,23 +213,10 @@ header img {
   margin: 7%;
 }
 
-P {
-  text-decoration: none;
-  color: black;
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 200;
-  font-size: 2rem;
-}
-
 .titel {
-  background-color: #f4e9e9;
   text-align: center;
-  padding: 6%;
+  font-family: "Helvetica Neue", sans-serif;
 }
-
-/* .titel h1 {
-  font-size: 167%;
-} */
 
 .titel h2 {
   font-size: 1rem;
@@ -243,6 +230,14 @@ P {
     padding: 49px;
     margin-top: auto;
   }
+
+  P {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+  }
 }
 @media (min-width: 600px) {
   #first_section {
@@ -251,6 +246,14 @@ P {
     padding: 49px;
     margin-top: auto;
   }
+
+  P {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+  }
 }
 @media (min-width: 800px) {
   #first_section {
@@ -258,6 +261,13 @@ P {
     margin-top: 7%;
     padding: 49px;
     margin-top: auto;
+  }
+  P {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
   }
 }
 @media (min-width: 1000px) {
@@ -276,5 +286,12 @@ P {
     font-size: 3rem;
     text-decoration: none;
     color: black;
+  }
+  P {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
   }
 }
